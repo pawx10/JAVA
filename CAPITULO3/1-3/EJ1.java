@@ -14,9 +14,7 @@ public class EJ1 {
         linea = System.console().readLine();
         int segundoNumero;
         segundoNumero = Integer.parseInt( linea );
-        int total;
-        total = (2 * primerNumero) + segundoNumero;
-
+        
         System.out.print("El resultado es " + primerNumero*segundoNumero);
        
     }
