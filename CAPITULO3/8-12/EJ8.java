@@ -11,6 +11,7 @@ System.out.print( "Escribe cuantas horas has trabajado esta semana: ");
 int horas =s.nextInt();
 System.out.print( "Tu salario de esta semana es:"+horas*12);
 
+s.close();
 
 
 

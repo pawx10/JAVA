@@ -14,6 +14,6 @@ public class EJ9 {
   System.out.print( "Dime el radio: ");
   int radio =s.nextInt();
   System.out.print("El volumen del cono es: "+(3.14*(radio*radio)*altura)/3);
-
+  s.close();
 }
 }

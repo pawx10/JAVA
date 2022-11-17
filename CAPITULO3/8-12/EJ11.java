@@ -10,6 +10,6 @@ public class EJ11 {
   double mb=s.nextInt();
   System.out.print( +mb+" Kb Son: "+mb/1000+" Mb");
   
-
+  s.close();
 }
 }
