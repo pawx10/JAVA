@@ -13,6 +13,6 @@ public class EJ12 {
     double nota2= ((qui*100)-(nota1*40))/60;
     System.out.println("Para tener un " + qui + " en el trimestre");
     System.out.println(" necesita sacar un " + nota2 + " en el segundo examen.");
-    
+    s.close();
 }
 }
