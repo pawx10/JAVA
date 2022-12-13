@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EJ2",
+            "request": "launch",
+            "mainClass": "EJ2",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ1",
+            "request": "launch",
+            "mainClass": "EJ1",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ13",
+            "request": "launch",
+            "mainClass": "EJ13",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ12",
+            "request": "launch",
+            "mainClass": "EJ12",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ9",
+            "request": "launch",
+            "mainClass": "EJ9",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ32",
+            "request": "launch",
+            "mainClass": "EJ32",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ10",
+            "request": "launch",
+            "mainClass": "EJ10",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ7",
+            "request": "launch",
+            "mainClass": "EJ7",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ8",
+            "request": "launch",
+            "mainClass": "EJ8",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
