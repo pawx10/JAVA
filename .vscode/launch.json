@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EJ18",
+            "request": "launch",
+            "mainClass": "EJ18",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
+            "name": "Launch EJ17",
+            "request": "launch",
+            "mainClass": "EJ17",
+            "projectName": "JAVA_ce962618"
+        },
+        {
+            "type": "java",
             "name": "Launch EJ2",
             "request": "launch",
             "mainClass": "EJ2",
