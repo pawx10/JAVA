@@ -9,6 +9,7 @@ public class Ejemplo1 {
         System.out.println(" 15 numeros aleatorios:\n");
         for(int i=1;i<11;i++){
             System.out.println(Math.random());
+            
         }
 
     }
