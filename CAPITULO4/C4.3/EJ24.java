@@ -1,14 +1,16 @@
+import java.util.Scanner;
 public class EJ24 {
     public static void main(String[] args) {
+        Scanner s=new Scanner (System.in);
     System.out.println("1 - Programador junior");
     System.out.println("2 - Prog. senior");
     System.out.println("3 - Jefe de proyecto");
     System.out.print("Introduzca el cargo del empleado (1 - 3): ");
-    int cargo = Integer.parseInt(System.console().readLine());
+    int cargo = s.nextInt();
     System.out.print("¿Cuántos días ha estado de viaje visitando clientes? ");
-    int diasVisita = Integer.parseInt(System.console().readLine());
+    int diasVisita = s.nextInt();
     System.out.print("Introduzca su estado civil (1 - Soltero, 2 - Casado): ");
-    int estadoCivil = Integer.parseInt(System.console().readLine());
+    int estadoCivil = s.nextInt();
     double sueldoBase = 0;
     switch(cargo) {
     case 1: // Programador junior
