@@ -1,7 +1,9 @@
+import java.util.Scanner;
 public class EJ31 {
     public static void main(String[] args) {
+        Scanner s=new Scanner (System.in);
     System.out.print("Introduzca la altura de la L: ");
-    int altura = Integer.parseInt(System.console().readLine());
+    int altura = s.nextInt();
     for (int i = 1; i < altura; i++) {
     System.out.println("*");
     }

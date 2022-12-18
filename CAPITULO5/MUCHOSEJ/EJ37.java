@@ -1,9 +1,11 @@
+import java.util.Scanner;
 public class EJ37 {
     public static void main (String[] args) {
+        Scanner s=new Scanner (System.in);
     long num;
     do {
     System.out.print("Introduce un número entero positivo: ");
-    num = Integer.parseInt(System.console().readLine());
+    num = s.nextLong();
     } while (num < 1);
     System.out.print(num + " = ");
     // Cuenta los números y calcula el reves

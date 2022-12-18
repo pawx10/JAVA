@@ -1,7 +1,9 @@
+import java.util.Scanner;
 public class EJ41 {
     public static void main(String[] args) {
+        Scanner s=new Scanner (System.in);
     System.out.print("Por favor, introduzca un número entero positivo: ");
-    long numeroIntroducido = Long.parseLong(System.console().readLine());
+    long numeroIntroducido = s.nextLong();
     long n = numeroIntroducido;
     int cuentaPares = 0;
     int cuentaImpares = 0;
