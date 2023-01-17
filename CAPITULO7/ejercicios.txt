@@ -1,0 +1,3 @@
+1 mostrar los elementos del array
+2 preguntar las posiciones del array
+3 mostrar la suma de los elementos de las posiciones pares
