@@ -25,7 +25,7 @@ public class EJ13 {
         System.out.print(elemento + " ");
       }
       
-      System.out.print("\n\n¿Qué quiere destacar? (1 – mínimo, 2 – máximo): ");
+      System.out.print("\n\n¿Qué quiere destacar? (1 - mínimo, 2 - máximo): ");
       int opcion = Integer.parseInt(System.console().readLine());
   
       int destacado; 
