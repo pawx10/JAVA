@@ -3,17 +3,17 @@ public class EJ18 {
         int [] array=new int [10];
         int[] menores = new int[10];
         int[] mayores = new int[10];
-        int cuentaMenores = 0;
-        int cuentaMayores = 0;
+        int Cmin = 0;
+        int Cmax = 0;
         
-        /*da valor array */
+        
         for (int i=0;i<array.length;i++){
             array[i]=(int)(Math.random()*201);
         /*da valor */
         if (array[i] <= 100) {
-            menores[cuentaMenores++] = array[i];
+            menores[Cmin++] = array[i];
           } else {
-            mayores[cuentaMayores++] = array[i];
+            mayores[Cmax++] = array[i];
           }
         }
       
@@ -28,7 +28,7 @@ public class EJ18 {
        
        
        
-        /*muestra tabla original */
+       
         System.out.println();
         System.out.print(" Valor  |");
         for (int i=0;i<array.length;i++){
@@ -40,19 +40,21 @@ public class EJ18 {
         int mayoresColocados = 0;
         
         int j = 0;
+        /* da valores*/
         do {
           
-          if (menoresColocados < cuentaMenores) {
+          if (menoresColocados < Cmin) {
             resultado[j++] = menores[menoresColocados++];
           }
           
-          if (mayoresColocados < cuentaMayores) {
+          if (mayoresColocados < Cmax) {
             resultado[j++] = mayores[mayoresColocados++];
           }
           
         } while (j < 10);
         System.out.println();
-        System.out.println(" Resultado ");
+
+        System.out.println(" Array Resultado ");
         System.out.println();
         System.out.print("Indice  |");
         for(int i=0;i<10;i++){
