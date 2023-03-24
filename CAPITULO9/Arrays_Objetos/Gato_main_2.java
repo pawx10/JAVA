@@ -1,8 +1,8 @@
-import java.util.Scanner;
+
 
 public class Gato_main_2 {
     public static void main(String[] args) {
-       Scanner s=new Scanner(System.in); 
+      
         Gato_clase_2[] gato=new Gato_clase_2[4];
        int i;
 
