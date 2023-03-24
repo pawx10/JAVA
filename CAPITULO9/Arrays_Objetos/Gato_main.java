@@ -37,6 +37,22 @@ public class Gato_main {
             System.out.println("Sexo "+gato[i].getSexo());
             System.out.println("Color "+gato[i].getColor());
             System.out.println("---------------------------------");
+
+            System.out.println("Comenzando el reparto de sardinas...");
+        
+        // Se reparten las sardinas entre los gatos
+        int sardinas = 10;
+        for ( i = 0; i < 3; i++) {
+            System.out.println("Gato " + gato[i].getNombre() + " está comiendo...");
+            int sardinasQueCome = s.nextInt();
+            s.nextLine(); 
+            gato[i].come(sardinasQueCome);
+            sardinas -= sardinasQueCome;
+            if (sardinas <= 0) {
+                System.out.println("Ya no hay sardinas");
+                break;
+            }
         }
     }
+}
 }
