@@ -47,6 +47,8 @@ public class Prueba_Vehiculos {
       opcion = s.nextLine();
       if(Vehiculo.esNumerico(opcion)){
         opcionNum=Integer.parseInt(opcion);
+        
+      }else{
         opcionNum=0;
       }
       
