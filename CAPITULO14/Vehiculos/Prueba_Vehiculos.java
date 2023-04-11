@@ -26,12 +26,12 @@ public class Prueba_Vehiculos {
 
   public static void main(String[] args) {
     Scanner s=new Scanner(System.in);
-    String opcion="" ;
+    String opcion= " " ;
     int km;
-    
+    int opcionNum=0;
     Bicicleta bhSpeedrom = new Bicicleta(9);
     Coche C15 = new Coche(1900);
-    int opcionNum=Integer.parseInt(opcion);
+    
     while (opcionNum != 9) {
       System.out.println("\n1. Anda con la bicicleta");
       System.out.println("2. Haz el caballito con la bicicleta");
