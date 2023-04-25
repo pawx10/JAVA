@@ -66,7 +66,7 @@ public class Satelite {
        }
        @Override
     public String toString() {
-    return "Satelite: " + nombre + ", Masa: " + masa + ", Diametro: " + diametro + ", Rotacion: " + rotacion + ", Traslacion: " + traslacion + ", Distancia: " + distancia;
+    return "Satelite: " + nombre;
 }
 
     
